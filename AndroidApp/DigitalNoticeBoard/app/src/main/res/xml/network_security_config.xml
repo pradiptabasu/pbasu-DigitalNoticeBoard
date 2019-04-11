@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">ec2-3-17-74-12.us-east-2.compute.amazonaws.com</domain>
+        <domain includeSubdomains="true">*.compute.amazonaws.com</domain>
+    </domain-config>
+</network-security-config>
